@@ -1,0 +1,19 @@
+{
+  "name": "Tidsrejsen",
+  "short_name": "Tidsrejsen",
+  "description": "Udforsk historien på en tidslinje og et kort.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2b2118",
+  "lang": "da",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
