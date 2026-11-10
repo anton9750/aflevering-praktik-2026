@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/historie-hjemmeside-praktik/',
+  base: '/aflevering-praktik-2026/',
   plugins: [react()],
 })
