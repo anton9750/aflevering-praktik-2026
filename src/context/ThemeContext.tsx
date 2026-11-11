@@ -16,7 +16,7 @@ function getInitialMode(): ThemeMode {
   if (stored === 'light' || stored === 'dark' || stored === 'retro') {
     return stored
   }
-  return 'light'
+  return 'retro'
 }
 
 export function ThemeContextProvider({ children }: { children: ReactNode }) {

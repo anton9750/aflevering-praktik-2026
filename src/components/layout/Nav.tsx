@@ -54,9 +54,9 @@ const ThemeButton = styled.button<{ $active: boolean }>`
 `
 
 const themeOptions: { mode: ThemeMode; label: string }[] = [
+  { mode: 'retro', label: 'Retro' },
   { mode: 'light', label: 'Lys' },
   { mode: 'dark', label: 'Mørk' },
-  { mode: 'retro', label: 'Retro' },
 ]
 
 export function Nav() {
