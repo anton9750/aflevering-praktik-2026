@@ -367,7 +367,9 @@ export function Home() {
         <EraGrid>
           {eras.map((era) => (
             <EraFigure key={era.title}>
-              <EraImage $src={era.thumbnailUrl} />
+              <EraImage
+                $src={era.title === 'Den moderne tid' ? `${import.meta.env.BASE_URL}modern.webp` : era.thumbnailUrl}
+              />
               <EraCaption>{era.displayTitle}</EraCaption>
             </EraFigure>
           ))}
