@@ -5,6 +5,7 @@ import { Timeline } from './pages/Timeline'
 import { MapPage } from './pages/MapPage'
 import { EventDetail } from './pages/EventDetail'
 import { PersonDetail } from './pages/PersonDetail'
+import { CountryDetail } from './pages/CountryDetail'
 import { Search } from './pages/Search'
 import { Compare } from './pages/Compare'
 import { Quiz } from './pages/Quiz'
@@ -23,6 +24,7 @@ function App() {
         <Route path="kort" element={<MapPage />} />
         <Route path="begivenhed/:id" element={<EventDetail />} />
         <Route path="person/:id" element={<PersonDetail />} />
+        <Route path="land/:id" element={<CountryDetail />} />
         <Route path="soeg" element={<Search />} />
         <Route path="sammenlign" element={<Compare />} />
         <Route path="quiz" element={<Quiz />} />
